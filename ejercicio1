@@ -1,0 +1,19 @@
+Algoritmo ejercicio1
+	Definir ciudades como cadena
+	Definir tamaño,i Como Entero
+	Escribir "cuantas ciudades"
+	Leer tamaño
+	Dimension ciudades[3]
+	para i<-0 Hasta tamaño-1 Hacer
+		Escribir "dime la ciudad ",i
+		Leer ciudades[i]
+	FinPara
+	
+	para i<-0 Hasta tamaño-1 Hacer
+		Escribir "la ciudad ",i, " es ",ciudades[i]
+		Escribir "la ciudad tiene", Longitud(ciudades[i])," letras."
+		Escribir "la ciudad en mayus ",Mayusculas(ciudades[i])
+		Escribir "la ciudad en dos letras ", Mayusculas(Subcadena(ciudades[i],0,1))
+	FinPara
+	
+FinAlgoritmo

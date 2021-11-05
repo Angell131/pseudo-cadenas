@@ -1,0 +1,11 @@
+Algoritmo ejercicio3
+	Definir elegido,dato Como Entero
+	elegido=azar(10)
+	//Escribir "el nº es ",elegido
+	dato=0
+Mientras elegido<>dato Hacer
+Escribir "dime nº del 1 al 10"
+Leer dato
+FinMientras
+Escribir "lo has adivinado"
+FinAlgoritmo

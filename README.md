@@ -1,5 +1,6 @@
 # pseudo-cadenas
 Pseint almacenar lista cadenas y funciones de cadena
+
 Actividad1
 Por teclado pides cuántas ciudades quieres guardar.
 Te va pidiendo las ciudades y las guardas en la lista
